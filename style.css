@@ -1,0 +1,21 @@
+body{
+    background-color: #A5635A;
+}
+input{
+    background-color: #BA4578;
+    padding: 30px 50px;
+    font-weight: bold;
+    font-size: 5em;
+
+}
+#header{
+    background-color: #AD9852;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding : 20px
+}
+h1{
+    text-align: center;
+}
+
