@@ -1,0 +1,38 @@
+body{
+    background-color: #A5635A;
+    font-family: 'Architects Daughter', cursive;
+}
+.button{
+    font-family: 'Yellowtail', cursive;
+    background-color: #BA4578;
+    padding: 30px 50px;
+    font-weight: bold;
+    font-size: 5em;
+
+}
+#header{
+    background-color: #AD9852;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding : 20px
+}
+h1{
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+}
+
+form{
+    margin: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.input1{
+    margin: 10px;
+}
+
+#grid{
+    display: flex;
+    flex-direction: column;
+}
