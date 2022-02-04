@@ -1,25 +1,27 @@
-body{
+body {
     background-color: #A5635A;
     font-family: 'Architects Daughter', cursive;
 }
-.button{
-    font-family: 'Yellowtail', cursive;
+
+.button {
+    text-shadow: 1px 1px 1px white;
+    box-shadow: 3px 3px 3px black;
     background-color: #BA4578;
     padding: 30px 50px;
     font-weight: bold;
     font-size: 5em;
-
+    font-family: 'Yellowtail', cursive;
 }
-#header{
-    background-color: #AD9852;
+
+#img {
+    text-align: center;
+}
+
+#header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding : 20px
-}
-h1{
-    font-family: 'Yellowtail', cursive;
-    text-align: center;
+    padding: 20px
 }
 
 form{

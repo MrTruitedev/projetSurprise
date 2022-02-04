@@ -4,6 +4,8 @@ body {
 }
 
 .button {
+    text-shadow: 1px 1px 1px white;
+    box-shadow: 3px 3px 3px black;
     background-color: #BA4578;
     padding: 30px 50px;
     font-weight: bold;

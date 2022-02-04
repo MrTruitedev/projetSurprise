@@ -1,9 +1,13 @@
 body {
-    background-color: #A5635A;
+    background-image: url(background.png);
+    /* background-color: #A5635A; */
     font-family: 'Architects Daughter', cursive;
+
 }
 
 .button {
+    text-shadow: 1px 1px 1px white;
+    box-shadow: 3px 3px 3px black;
     background-color: #BA4578;
     padding: 30px 50px;
     font-weight: bold;
@@ -21,62 +25,17 @@ body {
     justify-content: space-around;
     padding: 20px
 }
-
-#chat {
-    display: flex;
-    flex-direction: column;
+#index{
+    font-family: 'Architects Daughter', cursive;
+    text-shadow: 3px 3px 3px black;
+    color: #ad9852;
+    font-size: 4em;
+    text-align: center;
 }
-
-#chat div {
-    border-radius: 5px;
-    margin: 10px;
+ul{
+    list-style-type: none;
+}
+li{
+    margin : 15px;
     padding: 5px;
-    border: 1px solid black;
-}
-
-#chat div:nth-child(1) {
-    background-color: #BA4578;
-    max-width: 50%;
-}
-
-#chat div:nth-child(2) {
-    background-color: #e690b5;
-    align-self: flex-end;
-    max-width: 50%;
-}
-
-#chat div:nth-child(3) {
-    background-color: #BA4578;
-    max-width: 50%;
-}
-
-#chat div:nth-child(4) {
-    background-color: #e690b5;
-    align-self: flex-end;
-    max-width: 50%;
-}
-
-#chat div:nth-child(5) {
-    background-color: #BA4578;
-    max-width: 50%;
-}
-
-#chat div:nth-child(6) {
-    background-color: #BA4578;
-    width: 50%;
-    align-self: flex-end;
-}
-
-#message {
-    width: 85%;
-    height: 100px;
-    font-size: 5em;
-    border-radius: 5px;
-}
-
-#submit {
-    font-size: 3em;
-    font-weight: bold;
-    background-color: #d6377c;
-    border-radius: 5px;
 }
